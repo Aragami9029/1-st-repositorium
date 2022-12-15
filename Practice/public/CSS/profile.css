@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+}
+
+html{
+    background-image: url(../images/background/bgGif.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left -30%;
+}
+
+.Background > img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    width: 100%;
+    height: 150px;
+    margin-left: 0;
+    background-color: #05040B;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle; 
+    align-items: center; 
+    z-index: 999;
+}
+
+.logoTxt{
+    display: inline-block;
+    width: 250px;
+    height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 10%;
+    font-size:50px;
+}
+
+.logoTxt > h3{
+    color: #ffffff;
+    font-family: 'Freestyle Script';    
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(47, 0, 255),
+    0 0 21px rgb(106, 0, 255),
+    0 0 42px #a200ff,
+    0 0 82px rgb(137, 5, 252),
+    0 0 92px rgb(196, 3, 226),
+    0 0 102px rgb(255, 0, 200),
+    0 0 151px rgb(255, 0, 81);
+}
+
+.dropmenu{
+    position: relative;
+    display: inline-block;
+    margin-left: 75%;
+}
+
+.dropbtn{
+    background-color: #05040b00;
+    color: #ffffff;
+    font-family: 'Freestyle Script';    
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(47, 0, 255),
+    0 0 21px rgb(106, 0, 255),
+    0 0 42px #a200ff,
+    0 0 82px rgb(137, 5, 252),
+    0 0 92px rgb(196, 3, 226),
+    0 0 102px rgb(255, 0, 200),
+    0 0 151px rgb(255, 0, 81);
+    font-size: 50px;
+}
+
+.dropcontent{
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.644);   
+    min-width: 170px;
+    height: 205px;
+    box-shadow: 4px 3px 5px #a200ff;
+    z-index: 1;
+}
+
+.dropcontent a {
+    display: block;
+    color: #ffffff;
+    font-family: 'Freestyle Script';    
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.dropcontent a:hover{
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px rgb(47, 0, 255),
+    0 0 21px rgb(106, 0, 255),
+    0 0 42px #a200ff,
+    0 0 82px rgb(137, 5, 252),
+    0 0 92px rgb(196, 3, 226),
+    0 0 102px rgb(255, 0, 200),
+    0 0 151px rgb(255, 0, 81);
+}
+
+.dropmenu:hover .dropcontent{
+    display:block;
+}
+
+.mainBlock{
+    display: block;
+    Background-color: #000000ae;
+    width: 75%;
+    height: 800px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+

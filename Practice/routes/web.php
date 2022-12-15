@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
 });
+*/
+
+
+Route::get('/', [App\Http\Controllers\index::class, 'show']);        //Ссылка на "Главную" вёрстку
+
+Route::get('/МойПрофиль', [App\Http\Controllers\profile::class, 'show']);    
+
+   

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
 
 class profile extends Controller
 {
@@ -10,4 +11,9 @@ class profile extends Controller
         return view('site.profile');      //Вёрстка профиля
     }
     
+    public function publicate($productinf){
+        $product = new Product();
+        $product->
+
+    }
 }

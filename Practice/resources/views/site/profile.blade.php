@@ -20,6 +20,17 @@
             </div>
         </div>
     </header>
-    <div class="mainBlock"></div>
+    <div class="mainBlock">
+        <form action="/profile/publicate/" method="POST">
+            {{ csrf_field() }}
+            <input type="text" placeholder="Название">
+            <input type="text" placeholder="Описание">
+            <input type="text" placeholder="Цена">
+            <input type="date" placeholder="Год выпуска">
+            <input type="text" placeholder="Количество">
+           <!-- <input type="image" placeholder="Картинка"> -->
+            <input type="submit">
+        </form>
+    </div>
 </body>
 </html>

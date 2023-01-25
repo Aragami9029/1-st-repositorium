@@ -23,4 +23,4 @@ Route::get('/', [App\Http\Controllers\index::class, 'show']);        //Ссыл�
 
 Route::get('/МойПрофиль', [App\Http\Controllers\profile::class, 'show']);    
 
-   
+Route::post('/profile/publicate/', 'profile@publicate');
